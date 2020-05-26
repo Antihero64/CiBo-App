@@ -3,7 +3,7 @@
 we are working with Expo to build the App in React Native for use on Android and iOS.
 
 install the expo CLI
-npm install expo-cli --global
+´´´pm install expo-cli --global´´´
 
 see also: https://expo.io/learn for dependencies
 
