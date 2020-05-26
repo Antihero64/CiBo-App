@@ -15,11 +15,11 @@ Getting Started
 
 Download the Repo in the folder of your choice, navigate in the Terminal to the folder and type:
 
-npm install
+>npm install
 
 to install dependencies, and
 
-expo start
+>expo start
 
 to run the expo server.
 
