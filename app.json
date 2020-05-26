@@ -1,7 +1,15 @@
 {
   "expo": {
-    "name": "cibo",
+    "name": "Circuit Board",
     "slug": "cibo",
+    "androidStatusBar": {
+      "backgroundColor": "#320407",
+      "barStyle": "light-content"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#252525",
+      "barStyle": "light-content"
+    },
     "platforms": [
       "ios",
       "android",
@@ -13,7 +21,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#252525"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,6 +31,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.cibo.Antihero",
+      "versionCode": 1.0
     }
   }
 }

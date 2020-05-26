@@ -1,19 +1,21 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
+import React, { Component, useState } from "react";
+import { Alert, StyleSheet, Text, TouchableHighlight, View, Modal } from 'react-native';
+import { WebView } from 'react-native-webview';
+
+
+
+
+export default class MyWeb extends Component {
+  render() {
+    return (
+
+      <WebView
+        source={{ uri: 'https://circuit-board.de/forum/' }}
+        style={{ marginTop: 20 }}
+      />
+    );
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
